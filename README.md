@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sistoma Wiki · Atlas de Sol
 
-## Getting Started
+Wiki independiente en español, diseñada a partir de la estética del juego. Investigación directa del 10 de octubre de 2026, versión visible 0.9.82.
 
-First, run the development server:
+Incluye 130 fichas (25 naves, 6 estaciones, 16 materiales, 83 componentes), 25 guías, 29 planos observados en Meridian, atlas interactivo, comparador de naves, calculadoras de comercio y fabricación, glosario, búsqueda global y archivo personal local.
 
-```bash
+## Desarrollo
+
+```sh
+npm ci
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Comprobación y exportación
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```sh
+node scripts/verify-data.mjs
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+La aplicación exporta todas las rutas a `out/`. `.openai/hosting.json` identifica el sitio y su directorio estático. Los favoritos e historial se conservan en el navegador; no se conectan con la cuenta del juego.
 
-## Learn More
+`data/catalog.json` conserva las tablas y relaciones factuales de la enciclopedia con enlaces locales y secciones identificadas. `data/guides.ts` contiene explicaciones propias y fuentes. `data/blueprints.json` contiene recetas de la pantalla de Fabricación de Meridian. `scripts/prepare-data.mjs` puede reconstruir los datos usando las capturas de investigación locales, excluidas del repositorio.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+La página Fuentes y cobertura explica los límites: no se completaron todas las campañas ni se visitaron todas las pantallas de las estaciones remotas. Los precios están fechados y no se actualizan automáticamente. Las relaciones industriales de las estaciones se distinguen de recetas personales. Las fuentes, imágenes oficiales y tipografías proceden de Sistoma; la ilustración orbital de portada se construye en SVG.

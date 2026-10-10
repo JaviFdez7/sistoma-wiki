@@ -1,0 +1,553 @@
+[
+  {
+    "name": "Material de reparación",
+    "id": "material-de-reparacion",
+    "level": 0,
+    "ingredients": [
+      {
+        "name": "Aleación reciclada",
+        "amount": 0.8
+      },
+      {
+        "name": "Lingotes de ferrita",
+        "amount": 0.4
+      }
+    ],
+    "fee": 60,
+    "minutes": 5,
+    "learn": 1500,
+    "requirement": "Sin requisito de rango observado"
+  },
+  {
+    "name": "MSP Chispa",
+    "id": "msp-chispa",
+    "level": 1,
+    "ingredients": [
+      {
+        "name": "Cristal de corundita",
+        "amount": 2.9
+      },
+      {
+        "name": "Lingotes de ferrita",
+        "amount": 2.4
+      }
+    ],
+    "fee": 336,
+    "minutes": 8,
+    "learn": 6300,
+    "requirement": "Requiere De confianza con MSP"
+  },
+  {
+    "name": "MSP Ojo",
+    "id": "msp-ojo",
+    "level": 1,
+    "ingredients": [
+      {
+        "name": "Cristal de corundita",
+        "amount": 3.4
+      },
+      {
+        "name": "Aleación reciclada",
+        "amount": 3.8
+      }
+    ],
+    "fee": 400,
+    "minutes": 8,
+    "learn": 7500,
+    "requirement": "Requiere De confianza con MSP"
+  },
+  {
+    "name": "MSP Brasa",
+    "id": "msp-brasa",
+    "level": 1,
+    "ingredients": [
+      {
+        "name": "Cristal de corundita",
+        "amount": 3.8
+      },
+      {
+        "name": "Lingotes de ferrita",
+        "amount": 3.2
+      }
+    ],
+    "fee": 448,
+    "minutes": 9,
+    "learn": 8400,
+    "requirement": "Requiere De confianza con MSP"
+  },
+  {
+    "name": "MSP Brisa",
+    "id": "msp-brisa",
+    "level": 1,
+    "ingredients": [
+      {
+        "name": "Aleación reciclada",
+        "amount": 6.9
+      },
+      {
+        "name": "Lingotes de ferrita",
+        "amount": 3.4
+      }
+    ],
+    "fee": 480,
+    "minutes": 9,
+    "learn": 9000,
+    "requirement": "Requiere De confianza con MSP"
+  },
+  {
+    "name": "MSP Muro",
+    "id": "msp-muro",
+    "level": 1,
+    "ingredients": [
+      {
+        "name": "Cristal de corundita",
+        "amount": 5.5
+      },
+      {
+        "name": "Lingotes de aurelio",
+        "amount": 2.1
+      }
+    ],
+    "fee": 640,
+    "minutes": 10,
+    "learn": 12000,
+    "requirement": "Requiere De confianza con MSP"
+  },
+  {
+    "name": "MSP Pico+",
+    "id": "msp-pico-plus",
+    "level": 1,
+    "ingredients": [
+      {
+        "name": "Lingotes de ferrita",
+        "amount": 9.4
+      },
+      {
+        "name": "Cristal de corundita",
+        "amount": 5
+      }
+    ],
+    "fee": 880,
+    "minutes": 12,
+    "learn": 16500,
+    "requirement": "Requiere De confianza con MSP"
+  },
+  {
+    "name": "MSP Fragor",
+    "id": "msp-fragor",
+    "level": 1,
+    "ingredients": [
+      {
+        "name": "Cristal de corundita",
+        "amount": 9.6
+      },
+      {
+        "name": "Lingotes de ferrita",
+        "amount": 8
+      }
+    ],
+    "fee": 1120,
+    "minutes": 14,
+    "learn": 21000,
+    "requirement": "Requiere De confianza con MSP"
+  },
+  {
+    "name": "MSP Fragua+",
+    "id": "msp-fragua-plus",
+    "level": 1,
+    "ingredients": [
+      {
+        "name": "Lingotes de aurelio",
+        "amount": 5.8
+      },
+      {
+        "name": "Lingotes de ferrita",
+        "amount": 8.3
+      }
+    ],
+    "fee": 1160,
+    "minutes": 14,
+    "learn": 21800,
+    "requirement": "Requiere De confianza con MSP"
+  },
+  {
+    "name": "MSP Vigía",
+    "id": "msp-vigia",
+    "level": 1,
+    "ingredients": [
+      {
+        "name": "Cristal de corundita",
+        "amount": 10.3
+      },
+      {
+        "name": "Aleación reciclada",
+        "amount": 11.4
+      }
+    ],
+    "fee": 1200,
+    "minutes": 14,
+    "learn": 22500,
+    "requirement": "Requiere De confianza con MSP"
+  },
+  {
+    "name": "MSP Granizo",
+    "id": "msp-granizo",
+    "level": 1,
+    "ingredients": [
+      {
+        "name": "Lingotes de ferrita",
+        "amount": 14.1
+      },
+      {
+        "name": "Aleación reciclada",
+        "amount": 12.6
+      }
+    ],
+    "fee": 1320,
+    "minutes": 15,
+    "learn": 24800,
+    "requirement": "Requiere De confianza con MSP"
+  },
+  {
+    "name": "MSP Ventisca",
+    "id": "msp-ventisca",
+    "level": 1,
+    "ingredients": [
+      {
+        "name": "Aleación reciclada",
+        "amount": 24
+      },
+      {
+        "name": "Lingotes de ferrita",
+        "amount": 12
+      }
+    ],
+    "fee": 1680,
+    "minutes": 18,
+    "learn": 31500,
+    "requirement": "Requiere De confianza con MSP"
+  },
+  {
+    "name": "MSP Sabueso",
+    "id": "msp-sabueso",
+    "level": 1,
+    "ingredients": [
+      {
+        "name": "Cristal de corundita",
+        "amount": 25.4
+      },
+      {
+        "name": "Aleación reciclada",
+        "amount": 12.7
+      }
+    ],
+    "fee": 2240,
+    "minutes": 23,
+    "learn": 42000,
+    "requirement": "Requiere De confianza con MSP"
+  },
+  {
+    "name": "MSP Muralla",
+    "id": "msp-muralla",
+    "level": 1,
+    "ingredients": [
+      {
+        "name": "Cristal de corundita",
+        "amount": 20.6
+      },
+      {
+        "name": "Lingotes de aurelio",
+        "amount": 8
+      }
+    ],
+    "fee": 2400,
+    "minutes": 24,
+    "learn": 45000,
+    "requirement": "Requiere De confianza con MSP"
+  },
+  {
+    "name": "MSP Horno",
+    "id": "msp-horno",
+    "level": 1,
+    "ingredients": [
+      {
+        "name": "Lingotes de aurelio",
+        "amount": 12.8
+      },
+      {
+        "name": "Lingotes de ferrita",
+        "amount": 18.3
+      }
+    ],
+    "fee": 2560,
+    "minutes": 25,
+    "learn": 48000,
+    "requirement": "Requiere De confianza con MSP"
+  },
+  {
+    "name": "MSP Vigía Largo",
+    "id": "msp-vigia-largo",
+    "level": 1,
+    "ingredients": [
+      {
+        "name": "Cristal de corundita",
+        "amount": 19.8
+      },
+      {
+        "name": "Aleación reciclada",
+        "amount": 33
+      }
+    ],
+    "fee": 2320,
+    "minutes": 20,
+    "learn": 49500,
+    "requirement": "Requiere De confianza con MSP"
+  },
+  {
+    "name": "MSP Filón",
+    "id": "msp-filon",
+    "level": 1,
+    "ingredients": [
+      {
+        "name": "Lingotes de ferrita",
+        "amount": 30.9
+      },
+      {
+        "name": "Cristal de corundita",
+        "amount": 15.4
+      }
+    ],
+    "fee": 2720,
+    "minutes": 27,
+    "learn": 51000,
+    "requirement": "Requiere De confianza con MSP"
+  },
+  {
+    "name": "MSP Cabestrante",
+    "id": "msp-cabestrante",
+    "level": 1,
+    "ingredients": [
+      {
+        "name": "Lingotes de ferrita",
+        "amount": 34.2
+      },
+      {
+        "name": "Lingotes de aurelio",
+        "amount": 17.1
+      }
+    ],
+    "fee": 3840,
+    "minutes": 30,
+    "learn": 72000,
+    "requirement": "Requiere De confianza con MSP"
+  },
+  {
+    "name": "MSP Salto",
+    "id": "msp-salto",
+    "level": 1,
+    "ingredients": [
+      {
+        "name": "Lingotes de aurelio",
+        "amount": 33.5
+      },
+      {
+        "name": "Lingotes de ferrita",
+        "amount": 16.8
+      }
+    ],
+    "fee": 4800,
+    "minutes": 30,
+    "learn": 90000,
+    "requirement": "Requiere De confianza con MSP"
+  },
+  {
+    "name": "MSP Ojo Largo",
+    "id": "msp-ojo-largo",
+    "level": 2,
+    "ingredients": [
+      {
+        "name": "Cristal de corundita",
+        "amount": 6.6
+      },
+      {
+        "name": "Aleación reciclada",
+        "amount": 11
+      }
+    ],
+    "fee": 760,
+    "minutes": 12,
+    "learn": 16500,
+    "requirement": "Requiere Respetado con MSP"
+  },
+  {
+    "name": "MSP Granizo Frío",
+    "id": "msp-granizo-frio",
+    "level": 2,
+    "ingredients": [
+      {
+        "name": "Lingotes de ferrita",
+        "amount": 15.4
+      },
+      {
+        "name": "Aleación reciclada",
+        "amount": 13.7
+      }
+    ],
+    "fee": 1440,
+    "minutes": 16,
+    "learn": 27000,
+    "requirement": "Se gana con la cadena de contratos de HCA"
+  },
+  {
+    "name": "MSP Muralla Rápida",
+    "id": "msp-muralla-rapida",
+    "level": 2,
+    "ingredients": [
+      {
+        "name": "Cristal de corundita",
+        "amount": 21.9
+      },
+      {
+        "name": "Lingotes de aurelio",
+        "amount": 8.5
+      }
+    ],
+    "fee": 2560,
+    "minutes": 25,
+    "learn": 48000,
+    "requirement": "Se gana con la cadena de contratos de MSP"
+  },
+  {
+    "name": "MSP Atalaya",
+    "id": "msp-atalaya",
+    "level": 2,
+    "ingredients": [
+      {
+        "name": "Cristal de corundita",
+        "amount": 27
+      },
+      {
+        "name": "Lingotes de aurelio",
+        "amount": 15.7
+      }
+    ],
+    "fee": 3160,
+    "minutes": 26,
+    "learn": 67500,
+    "requirement": "Requiere Respetado con MSP"
+  },
+  {
+    "name": "MSP Escudero",
+    "id": "msp-escudero",
+    "level": 2,
+    "ingredients": [
+      {
+        "name": "Cristal de corundita",
+        "amount": 29.8
+      },
+      {
+        "name": "Lingotes de aurelio",
+        "amount": 13.6
+      }
+    ],
+    "fee": 3600,
+    "minutes": 24,
+    "learn": 67500,
+    "requirement": "Requiere Respetado con MSP"
+  },
+  {
+    "name": "MSP Dique",
+    "id": "msp-dique",
+    "level": 2,
+    "ingredients": [
+      {
+        "name": "Cristal de corundita",
+        "amount": 40
+      },
+      {
+        "name": "Lingotes de aurelio",
+        "amount": 19.3
+      }
+    ],
+    "fee": 5120,
+    "minutes": 30,
+    "learn": 96000,
+    "requirement": "Requiere Respetado con MSP"
+  },
+  {
+    "name": "MSP Crisol",
+    "id": "msp-crisol",
+    "level": 2,
+    "ingredients": [
+      {
+        "name": "Lingotes de aurelio",
+        "amount": 27.2
+      },
+      {
+        "name": "Lingotes de ferrita",
+        "amount": 38.9
+      }
+    ],
+    "fee": 5440,
+    "minutes": 30,
+    "learn": 102000,
+    "requirement": "Requiere Respetado con MSP"
+  },
+  {
+    "name": "MSP Travesía",
+    "id": "msp-travesia",
+    "level": 2,
+    "ingredients": [
+      {
+        "name": "Lingotes de aurelio",
+        "amount": 41.3
+      },
+      {
+        "name": "Cristal de corundita",
+        "amount": 55
+      }
+    ],
+    "fee": 8800,
+    "minutes": 30,
+    "learn": 165000,
+    "requirement": "Requiere Respetado con MSP"
+  },
+  {
+    "name": "MSP Pico Largo",
+    "id": "msp-pico-largo",
+    "level": 3,
+    "ingredients": [
+      {
+        "name": "Lingotes de ferrita",
+        "amount": 5.1
+      },
+      {
+        "name": "Cristal de corundita",
+        "amount": 2.7
+      }
+    ],
+    "fee": 480,
+    "minutes": 9,
+    "learn": 9000,
+    "requirement": "Requiere Honrado con MSP"
+  },
+  {
+    "name": "MSP Atalaya Larga",
+    "id": "msp-atalaya-larga",
+    "level": 3,
+    "ingredients": [
+      {
+        "name": "Cristal de corundita",
+        "amount": 59.4
+      },
+      {
+        "name": "Lingotes de aurelio",
+        "amount": 34.7
+      }
+    ],
+    "fee": 6920,
+    "minutes": 30,
+    "learn": 148500,
+    "requirement": "Requiere Honrado con MSP"
+  }
+]

@@ -1,0 +1,6 @@
+"use client";
+import {useState} from 'react';
+import {Search,Keyboard} from 'lucide-react';
+import {shortcuts,glossary} from '@/data/guides';
+import {normalize} from '@/lib/wiki';
+export function Glossary(){const [q,setQ]=useState('');const items=glossary.filter(x=>normalize(x.join(' ')).includes(normalize(q)));return <div className="page-wrap"><div className="page-heading"><p className="eyebrow">REFERENCIA RÁPIDA / TÉRMINOS Y TECLAS</p><h1>Habla el idioma de Sol<span className="orange">.</span></h1><p>Las unidades, los estados de la nave y los atajos que verás en el juego.</p></div><div className="inline-search"><Search size={17}/><input aria-label="Buscar término" value={q} onChange={e=>setQ(e.target.value)} placeholder="SCU, cuántico, escudos..."/></div><dl className="glossary-grid">{items.map(([term,meaning])=><div key={term}><dt>{term}</dt><dd>{meaning}</dd></div>)}</dl>{!items.length&&<div className="empty"><p>No se encontró ese término.</p></div>}<h2 className="standalone-title"><Keyboard size={22}/> Controles de referencia</h2><div className="shortcut-grid">{shortcuts.map(([key,meaning])=><div key={key}><kbd>{key}</kbd><span>{meaning}</span></div>)}</div><p className="data-footnote">Los atajos del juego son opcionales y se cambian en Ajustes → Controles. En la wiki, Ctrl K abre el buscador y Esc lo cierra.</p></div>}
