@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import "./visual-lessons.css";
+import "./visual-overhaul.css";
 import { WikiShell } from "@/components/WikiShell";
 
 export const metadata: Metadata = {
